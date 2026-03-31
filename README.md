@@ -1,4 +1,5 @@
 # Real Estate Contract & Disclosure Analyzer
+## *A multi-stage hybrid RAG architecture with Dense and Sparse retrieval and LLM-as-a-judge evaluation*
 
 A question-answering tool for real estate documents. Upload any property disclosure or purchase agreement and ask plain-English questions — the system finds the relevant clauses and answers with citations, then scores how faithfully the answer tracks the source text.
 
