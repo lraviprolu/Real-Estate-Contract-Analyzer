@@ -267,7 +267,7 @@ Real-Estate-Contract-Analyzer/
 
 ## Disclaimer
 
-This tool is built for **educational and portfolio demonstration purposes only**.
+This tool is built for **educational and demonstration purposes only**.
 
 - It is not legal advice. Do not rely on its output for any real estate transaction or legal decision.
 - Always consult a licensed real estate attorney or agent for guidance on actual contracts.
