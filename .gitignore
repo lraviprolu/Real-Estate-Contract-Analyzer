@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.tfvars
+
+# Terraform
+.terraform/
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/terraform.tfvars
+*.tfstate
+*.tfstate.backup
+terraform/.terraform.lock.hcl
+
+# Local indexes
+chroma_db/
+bm25_index.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Docker
+.dockerignore
+
+# Screenshots
+assets/
+
+
+.terraform/
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/terraform.tfvars
