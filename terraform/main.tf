@@ -202,6 +202,11 @@ resource "aws_instance" "app_server" {
       $(aws sts get-caller-identity --query Account --output text).dkr.ecr.${var.aws_region}.amazonaws.com/${var.ecr_repo_name}:latest
   EOF
 
+  root_block_device {
+    volume_size = 20
+    volume_type = "gp2"
+  }
+  
   tags = {
     Name    = "real-estate-analyzer-server"
     Project = "real-estate-analyzer"
